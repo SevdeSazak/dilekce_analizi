@@ -1,5 +1,5 @@
 # Dilekçe Bilgi Çıkarımı
-Bu proje, doğal dil işleme (NLP) tekniklerini kullanarak dilekçeler üzerinden **anlamlı bilgi çıkarımı** ve **anlamsal sınıflandırma** yapmayı amaçlamaktadır.PDF formatındaki dilekçelerden metin çıkarılarak; kişi, kurum, tarih gibi varlık isimleri tespit edilir ve metinlerin anlamlı sınıflara ayrılması sağlanır.  
+Bu proje, dilekçeler üzerinden **anlamlı bilgi çıkarımı** ve **anlamsal sınıflandırma** yapmayı amaçlamaktadır.PDF formatındaki dilekçelerden metin çıkarılarak; kişi, kurum, tarih gibi varlık isimleri tespit edilir ve metinlerin anlamlı sınıflara ayrılması sağlanır.  
 **1- KULLANILAN KÜTÜPHANELER**  
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline #NER modeli  ve Zero-shot (RoBERTa) için  
 import re  
