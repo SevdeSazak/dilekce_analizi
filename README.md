@@ -1,0 +1,1 @@
+# dilekce_analizi
